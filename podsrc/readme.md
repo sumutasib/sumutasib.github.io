@@ -17,6 +17,7 @@ The site design was based on [Jekyll Skeleton](https://github.com/timklapdor/jek
 - all the header CSS nonsense is in podsrc/_sass/base/_structure.scss , in particular .header and .logo
 - queer kahani background color is #B7B3FD
 - card CSS is controlled by global variables in podsrc\_sass\base\_variables.scss and card-specific stuff in podsrc\_sass\modules\_cards.scss
+- have to add .nojekyll file in root to prevent github from running Jekyll again
 
 # To Do Before Launch
 - fix favicon and update podsrc\_includes\head.html

@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Default Title
+title: Queer Kahani - The Podcast
 email: sumu.tasib@gmail.com
 description: "Link Rot is a discussion held at the intersection of life and technology. Each week we dive into a subject that explores the changes going on in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and aim to have some fun along the way!"
 subtitle: "A discussion from the intersection of life & technology."
@@ -20,10 +20,10 @@ url: "http://sumutasib.github.io" # the base hostname & protocol for your site
 twitter_username: sumutasib
 github_username:  sumutasib
 
-permalink: /:year/:title.html
+permalink: /episodes/:title.html
 
 #Timezone
-timezone: Australia/Sydney
+timezone: America/Los_Angeles
 
 #Setup for Pages
 include: ['_pages']
@@ -35,4 +35,4 @@ markdown: kramdown
 destination: "../podcast"
 
 #Exclude local build settings
-exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+exclude: ['plyr-test.html', 'readme.md', 'Gemfile.lock', 'Gemfile']

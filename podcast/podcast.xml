@@ -3,24 +3,24 @@
 
     <channel>
 		<atom:link href="http://queerkahani.com/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>Queer Kahani - The Podcast</title>
+		<title>Queer Kahani</title>
 		<link>http://queerkahani.com/podcast</link>
 		<language>en-us</language>
-        <copyright>&#xA9; 2021 Queer Kahani - The Podcast</copyright>
-		<itunes:subtitle>A discussion from the intersection of life &amp; technology.</itunes:subtitle>
+        <copyright>&#xA9; 2021 Queer Kahani</copyright>
+		<itunes:subtitle>A place for queer stories</itunes:subtitle>
         <itunes:author>Sumu Tasib</itunes:author>
-		<itunes:summary>Link Rot is a discussion held at the intersection of life and technology. Each week we dive into a subject that explores the changes going on in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and aim to have some fun along the way!</itunes:summary>
-        <description>Link Rot is a discussion held at the intersection of life and technology. Each week we dive into a subject that explores the changes going on in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and aim to have some fun along the way!</description>
+		<itunes:summary>Queer Kahani is a quirky and curious podcast of bite-sized queer stories told in an interactive interview format - happy stories, sad stories, coming out stories, closing in stories, first loves, worst loves, epiphanies, recipes, and everything in between.</itunes:summary>
+        <description>Queer Kahani is a quirky and curious podcast of bite-sized queer stories told in an interactive interview format - happy stories, sad stories, coming out stories, closing in stories, first loves, worst loves, epiphanies, recipes, and everything in between.</description>
 		<webMaster>sumu.tasib@gmail.com (Sumu Tasib)</webMaster>
         <itunes:owner>
 			<itunes:name>Sumu Tasib</itunes:name>
 			<itunes:email>sumu.tasib@gmail.com</itunes:email>
 		</itunes:owner>
         <itunes:image href="http://queerkahani.com/podcast/images/itunes.png" />
-		<itunes:category text="Technology" />
-		<itunes:category text="Society &amp; Culture" />
-        <itunes:category text="Education">
-            <itunes:category text="Educational Technology" />
+		<itunes:category text="Society &amp; Culture">
+            <itunes:category text="Relationships" />
+            <itunes:category text="Philosophy" />
+            <itunes:category text="Documentary" />
         </itunes:category> 
         <itunes:explicit>no</itunes:explicit>
 		
@@ -28,7 +28,7 @@
         <item>
             <title>Episode 2: Coming Out Twice</title>
             <itunes:author>Sumu Tasib</itunes:author>
-            <itunes:subtitle>Queer Kahani - The Podcast: Episode 2: Coming Out Twice</itunes:subtitle>
+            <itunes:subtitle>Queer Kahani: Episode 2: Coming Out Twice</itunes:subtitle>
             <itunes:summary>A story from Beckon about coming out twice.</itunes:summary>
             <itunes:image href="http://queerkahani.com/images/itunes.png" />
             <enclosure url="https://files.queerkahani.com/file/queerkahani/supergirl.mp3" length="74352483" type="audio/mp3"/>
@@ -44,7 +44,7 @@
         <item>
             <title>Episode 1: Welcome to Queer Kahani</title>
             <itunes:author>Sumu Tasib</itunes:author>
-            <itunes:subtitle>Queer Kahani - The Podcast: Episode 1: Welcome to Queer Kahani</itunes:subtitle>
+            <itunes:subtitle>Queer Kahani: Episode 1: Welcome to Queer Kahani</itunes:subtitle>
             <itunes:summary>An introduction to the podcast and your host, Sumu Tasib.</itunes:summary>
             <itunes:image href="http://queerkahani.com/images/itunes.png" />
             <enclosure url="https://files.queerkahani.com/file/queerkahani/supergirl.mp3" length="74352483" type="audio/mp3"/>

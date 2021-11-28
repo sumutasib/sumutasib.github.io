@@ -4,7 +4,7 @@ title: "About Queer Kahani"
 permalink: /about
 ---
 
-Queer Kahani is a quirky, queer podcast of bite-sized stories - happy stories, sad stories, first loves, worst loves, epiphanies, recipes, and everything in between. Episodes are available [here](index.html) and coming soon to Spotify and Apple Music. 
+Queer Kahani is a quirky and curious podcast of bite-sized queer stories told in an interactive interview format - happy stories, sad stories, coming out stories, closing in stories, first loves, worst loves, epiphanies, recipes, and everything in between. Episodes are available [here](index.html) and coming soon to Spotify and Apple Music. 
 
 ### The Format
 

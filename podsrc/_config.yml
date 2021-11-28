@@ -16,11 +16,11 @@ copyright: "&#xA9; 2021"
 
 # URL settings (choose remote or local)
 # remote settings
-# baseurl: "/podcast" # the subpath of your site, e.g. /blog
-# url: "http://queerkahani.com" # the base hostname & protocol for your site
+baseurl: "/podcast" # the subpath of your site, e.g. /blog
+url: "http://queerkahani.com" # the base hostname & protocol for your site
 # local (development) settings
-baseurl: "file:///C:/git/sumutasib/sumutasib.github.io/podcast" # the subpath of your site, e.g. /blog
-url: "http://sumutasib.github.io" # the base hostname & protocol for your site
+# baseurl: "file:///C:/git/sumutasib/sumutasib.github.io/podcast" # the subpath of your site, e.g. /blog
+# url: "http://sumutasib.github.io" # the base hostname & protocol for your site
 
 twitter_username: sumutasib
 github_username:  sumutasib

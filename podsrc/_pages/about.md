@@ -16,9 +16,7 @@ Our guests are selected from many sources - friends, neighbors, listeners, autho
 
 ### Story Submissions
 
-Do you have a queer story to tell? Send it our way! Story submissions are welcome via [email](mailto:sumu.tasib@gmail.com?subject=Queer Kahani Story Submission). All kinds of stories are welcome, as long as they have a queer component to them. 
-
-As for the submission itself, please keep it under 500 words - you don't need to recount the whole story, just give us the gist and let us know why you think it would appeal to our audience. I can't promise I'll respond to every email, but I do promise to read all of them.
+Instructions on how to submit a story are [here](submitastory.html).
 
 ### The Name
 

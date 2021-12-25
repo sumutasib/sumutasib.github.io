@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Episode 1: Welcome to Queer Kahani"
-date: 2021-12-05 20:30:00 +1100
-file: https://files.queerkahani.com/file/queerkahani/545.mp3
+date: 2021-12-05 20:30:00 -800
+file: https://files.queerkahani.com/file/queerkahani/Queer_Kahani_Episode_001.mp3
 summary: "An introduction to the podcast and your host, Sumu Tasib."
 description: "In this introductory episode, I discuss the origins, intentions, and format of the podcast, including the meaning of the phrase \"Queer Kahani.\" I also give you a bit of background about me and why I made this podcast.Finally, I explain how to submit your own stories."
-duration: "51:35" 
-length: "74352483"
+duration: "4:22" 
+length: "4196208"
 explicit: "no" 
 keywords: "introduction; origins; story submission"
 block: "no" 

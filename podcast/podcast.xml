@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
 
     <channel>
-		<atom:link href="http://queerkahani.com/podcast.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="https://queerkahani.com/podcast.rss" rel="self" type="application/rss+xml" />
 		<title>Queer Kahani</title>
-		<link>http://queerkahani.com/podcast</link>
+		<link>https://queerkahani.com/podcast</link>
 		<language>en-us</language>
         <copyright>&#xA9; 2021 Queer Kahani</copyright>
 		<itunes:subtitle>A place for queer stories</itunes:subtitle>
@@ -16,7 +16,7 @@
 			<itunes:name>Sumu Tasib</itunes:name>
 			<itunes:email>sumu.tasib@gmail.com</itunes:email>
 		</itunes:owner>
-        <itunes:image href="http://queerkahani.com/podcast/images/itunes.png" />
+        <itunes:image href="https://queerkahani.com/podcast/images/itunes.png" />
 		<itunes:category text="Society &amp; Culture">
             <itunes:category text="Relationships" />
             <itunes:category text="Philosophy" />
@@ -30,13 +30,13 @@
             <itunes:author>Sumu Tasib</itunes:author>
             <itunes:subtitle>Queer Kahani: Episode 2: Coming Out Twice</itunes:subtitle>
             <itunes:summary>A story from Beckon about coming out twice.</itunes:summary>
-            <itunes:image href="http://queerkahani.com/images/itunes.png" />
-            <enclosure url="https://files.queerkahani.com/file/queerkahani/supergirl.mp3" length="74352483" type="audio/mp3"/>
-            <guid isPermaLink="true">http://queerkahani.com/podcast/episodes/episode-2-coming-out-twice.html</guid>
-            <pubDate>Fri, 24 Dec 2021 01:30:00 -0800</pubDate>
-            <itunes:duration>51:35</itunes:duration>
+            <itunes:image href="https://queerkahani.com/images/itunes.png" />
+            <enclosure url="https://files.queerkahani.com/file/queerkahani/Queer_Kahani_Episode_002.mp3" length="20505812" type="audio/mp3"/>
+            <guid isPermaLink="true">https://queerkahani.com/podcast/episodes/episode-2-coming-out-twice.html</guid>
+            <pubDate>Fri, 24 Dec 2021 20:30:00 -0800</pubDate>
+            <itunes:duration>21:21</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
-            <description>A story from Beckon about coming out twice. Beckon tells us the story of how she's had to come out twice over the course of her life, in two very different societal contexts. Along the way, we talk about interactions with societal norms, how to create safer spaces, how coming out might be different in 2021 compared to the early 2000s, and some of Beckon's favorite queer resources. Show Notes Available at http://queerkahani.com/podcast/episodes/episode-2-coming-out-twice.html.</description>
+            <description>A story from Beckon about coming out twice. Beckon tells us the story of how she's had to come out twice over the course of her life, in two very different societal contexts. Along the way, we talk about interactions with societal norms, how to create safer spaces, how coming out might be different in 2021 compared to the early 2000s, and some of Beckon's favorite queer resources. Show Notes Available at https://queerkahani.com/podcast/episodes/episode-2-coming-out-twice.html.</description>
             <itunes:keywords>coming out; allyship; parents; societal expectations</itunes:keywords>
             <itunes:block>no</itunes:block>
 		</item>
@@ -46,13 +46,13 @@
             <itunes:author>Sumu Tasib</itunes:author>
             <itunes:subtitle>Queer Kahani: Episode 1: Welcome to Queer Kahani</itunes:subtitle>
             <itunes:summary>An introduction to the podcast and your host, Sumu Tasib.</itunes:summary>
-            <itunes:image href="http://queerkahani.com/images/itunes.png" />
-            <enclosure url="https://files.queerkahani.com/file/queerkahani/545.mp3" length="74352483" type="audio/mp3"/>
-            <guid isPermaLink="true">http://queerkahani.com/podcast/episodes/episode-1-welcome-to-queer-kahani.html</guid>
-            <pubDate>Sun, 05 Dec 2021 01:30:00 -0800</pubDate>
-            <itunes:duration>51:35</itunes:duration>
+            <itunes:image href="https://queerkahani.com/images/itunes.png" />
+            <enclosure url="https://files.queerkahani.com/file/queerkahani/Queer_Kahani_Episode_001.mp3" length="4196208" type="audio/mp3"/>
+            <guid isPermaLink="true">https://queerkahani.com/podcast/episodes/episode-1-welcome-to-queer-kahani.html</guid>
+            <pubDate>Sun, 05 Dec 2021 20:30:00 -0800</pubDate>
+            <itunes:duration>4:22</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
-            <description>An introduction to the podcast and your host, Sumu Tasib. In this introductory episode, I discuss the origins, intentions, and format of the podcast, including the meaning of the phrase &quot;Queer Kahani.&quot; I also give you a bit of background about me and why I made this podcast.Finally, I explain how to submit your own stories. Show Notes Available at http://queerkahani.com/podcast/episodes/episode-1-welcome-to-queer-kahani.html.</description>
+            <description>An introduction to the podcast and your host, Sumu Tasib. In this introductory episode, I discuss the origins, intentions, and format of the podcast, including the meaning of the phrase &quot;Queer Kahani.&quot; I also give you a bit of background about me and why I made this podcast.Finally, I explain how to submit your own stories. Show Notes Available at https://queerkahani.com/podcast/episodes/episode-1-welcome-to-queer-kahani.html.</description>
             <itunes:keywords>introduction; origins; story submission</itunes:keywords>
             <itunes:block>no</itunes:block>
 		</item>

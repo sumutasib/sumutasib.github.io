@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Subscribing to Queer Kahani"
+summary: "How to access Queer Kahani via the website, Spotify, and Apple Podcasts."
 permalink: /comingsoon
 ---
 

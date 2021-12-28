@@ -2,6 +2,7 @@
 layout: page
 title: "About Queer Kahani"
 permalink: /about
+summary: Information about Queer Kahani and the host, Sumu Tasib
 ---
 
 Queer Kahani is a quirky and curious podcast of bite-sized queer stories told in an interactive interview format - happy stories, sad stories, coming out stories, closing in stories, first loves, worst loves, epiphanies, recipes, and everything in between. Episodes are available [here](index.html) and coming soon to Spotify and Apple Music. 

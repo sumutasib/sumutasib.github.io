@@ -2,6 +2,7 @@
 layout: page
 title: "Submitting a Story to Queer Kahani"
 permalink: /submitastory
+summary: How to submit a story to the Queer Kahani podcast
 ---
 
 Do you have a queer story to tell, or a suggestion for a guest for the program? Please send it my way! This podcast thrives on stories - your stories - so I absolutely depend on you, my listeners, for new material.

@@ -19,11 +19,4 @@ The site design was based on [Jekyll Skeleton](https://github.com/timklapdor/jek
 - card CSS is controlled by global variables in podsrc\_sass\base\_variables.scss and card-specific stuff in podsrc\_sass\modules\_cards.scss
 - have to add .nojekyll file in root to prevent github from running Jekyll again
 
-# To Do Before Launch
-- fix favicon and update podsrc\_includes\head.html
-- update metadata and files for epsiodes 1 and 2
-- remove plyr_test.html from build
-
-# To Do After Spotify/Apple Music Listing
-- update navigation.html
-- update footer.html
+# To Do

@@ -6,7 +6,7 @@
 		<title>Queer Kahani</title>
 		<link>https://queerkahani.com/podcast</link>
 		<language>en-us</language>
-        <copyright>&#xA9; 2022 Queer Kahani</copyright>
+        <copyright>&#xA9; 2023 Queer Kahani</copyright>
 		<itunes:subtitle>A place for queer stories</itunes:subtitle>
         <itunes:author>Sumu Tasib</itunes:author>
 		<itunes:summary>Queer Kahani is a quirky and curious podcast of bite-sized queer stories told in an interactive interview format - happy stories, sad stories, coming out stories, closing in stories, first loves, worst loves, epiphanies, recipes, and everything in between. Learn more at https://queerkahani.com</itunes:summary>
@@ -24,6 +24,22 @@
         </itunes:category> 
         <itunes:explicit>no</itunes:explicit>
 		
+
+        <item>
+            <title>Episode 4: Clitaurus Chronicles</title>
+            <itunes:author>Sumu Tasib</itunes:author>
+            <itunes:subtitle>Queer Kahani: Episode 4: Clitaurus Chronicles</itunes:subtitle>
+            <itunes:summary>An interview with Breona Mendoza about her book, Clitaurus Chronicles (illustrated by Danny Tayara), and her work as a therapist, sex therapist, and sex educator.</itunes:summary>
+            <itunes:image href="https://queerkahani.com/images/itunes.png" />
+            <enclosure url="https://files.queerkahani.com/file/queerkahani/Queer_Kahani_Episode_004.mp3" length="60373266" type="audio/mp3"/>
+            <guid isPermaLink="true">https://queerkahani.com/podcast/episodes/episode-4-clitaurus-chronicles.html</guid>
+            <pubDate>Sat, 28 Jan 2023 15:00:00 -0800</pubDate>
+            <itunes:duration>01:02:53</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <description>An interview with Breona Mendoza about her book, Clitaurus Chronicles (illustrated by Danny Tayara), and her work as a therapist, sex therapist, and sex educator. An interview with Breona Mendoza about her book, Clitaurus Chronicles (illustrated by Danny Tayara), and her work as a therapist, sex therapist, and sex educator. Show Notes Available at https://queerkahani.com/podcast/episodes/episode-4-clitaurus-chronicles.html</description>
+            <itunes:keywords>therapy; sex therapy; Clitaurus Chronicles; sex education; Breona Mendoza; Danny Tayara; consent; publishing</itunes:keywords>
+            <itunes:block>no</itunes:block>
+		</item>
 
         <item>
             <title>Episode 3: The Queer Side of SEAF</title>

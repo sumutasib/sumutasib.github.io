@@ -2889,7 +2889,8 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #f2f2f2;
+			/* background-color: #f2f2f2; */
+			background-color: #dddddd;
 			color: #a6a6a6;
 		}
 
@@ -4310,3 +4311,21 @@
 			}
 
 		}
+
+/* Stories/Poems in Word HTML */
+div.WordSection1 {
+	font-family:"Georgia",serif;
+	font-size: 14pt;
+	color: #000;
+	padding-top: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 150px;
+}
+
+p.MsoTitle {
+	font-family:"Georgia",serif;
+	color: #449;
+	font-size: 36pt;
+	margin-bottom: 48pt;
+}

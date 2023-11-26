@@ -4315,17 +4315,17 @@
 /* Stories/Poems in Word HTML */
 div.WordSection1 {
 	font-family:"Georgia",serif;
-	font-size: 14pt;
+	font-size: 125%;
 	color: #000;
-	padding-top: 100px;
-	padding-left: 150px;
-	padding-right: 150px;
-	padding-bottom: 150px;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
 }
 
 p.MsoTitle {
 	font-family:"Georgia",serif;
 	color: #449;
-	font-size: 36pt;
-	margin-bottom: 48pt;
+	font-size: 250%;
+	margin-bottom: 10%;
 }

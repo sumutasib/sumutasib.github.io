@@ -29,8 +29,20 @@ function closePasswordDialog(hashvalue) {
     }
 }
 
-// function to create a numeric hash from a string
+// function to create a numeric hash from a string. Intentionally simple with a high chance of collisions
+// so that it does not provide a hint to the true passphrase, which will be required to decode correctly,
+// i.e., matching the hash will not be enough to decode the text.
 function hashCode(str) {
+    var hash = 0;
+    for (var i = 0; i < str.length; i++) {
+        hash += str.charCodeAt(i)*(i+1);
+    }
+    // return the lowest 8 bits to reduce the information content of the hash
+    return hash & 0xFF;
+}
+
+// more complex hash
+function hashCode_old(str) {
     var hash = 0;
     for (var i = 0; i < str.length; i++) {
         var char = str.charCodeAt(i);

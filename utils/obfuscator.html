@@ -1,0 +1,124 @@
+<html>
+<head>
+    <title>Obfuscator</title>
+    <link rel="stylesheet" href="directorystyle.css">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <!-- include a javascript file papers.js -->
+    <script src="../assets/js/sumutils.js"></script>
+    <script>
+        function obfuscate_text() {
+            var passphrase = document.getElementById("passphrase").value;
+            var text = document.getElementById("raw_content_textarea").value;
+            // split text into lines
+            var lines = text.split("\n");
+            // iterate over lines
+            for (var i = 0; i < lines.length; i++) {
+                // remove leading and trailing whitespace
+                lines[i] = lines[i].trim();
+            }
+            // convert to array of obfuscated lines
+            var obfuscated_lines = [];
+            for (var i = 0; i < lines.length; i++) {
+                // obfuscate each line
+                var obfuscated_line = addPassphraseCharsToString(lines[i], passphrase);
+                // add to array
+                obfuscated_lines.push(obfuscated_line);
+            }
+            // join lines with new line character
+            var obfuscated_text = obfuscated_lines.join("\n");
+            document.getElementById("obfuscated_content_textarea").value = obfuscated_text;
+        }
+        
+        function deobfuscate_text() {
+            var passphrase = document.getElementById("passphrase").value;
+            var text = document.getElementById("obfuscated_content_textarea").value;
+            // split text into lines
+            var lines = text.split("\n");
+            // iterate over lines
+            for (var i = 0; i < lines.length; i++) {
+                // remove leading and trailing whitespace
+                lines[i] = lines[i].trim();
+            }
+            // convert to array of deobfuscated lines
+            var deobfuscated_lines = [];
+            for (var i = 0; i < lines.length; i++) {
+                // deobfuscate each line
+                var deobfuscated_line = removePassphraseCharsFromString(lines[i], passphrase);
+                // add to array
+                deobfuscated_lines.push(deobfuscated_line);
+            }
+            // join lines with new line character
+            var deobfuscated_text = deobfuscated_lines.join("\n");
+            document.getElementById("raw_content_textarea").value = deobfuscated_text;
+        }
+
+    function add_html() {
+        html_prefix = '<p class="MsoNormal">';
+        html_suffix = '</p>';
+        // add prefix and suffix to each line of obfuscated text
+        var text = document.getElementById("obfuscated_content_textarea").value;
+        // split text into lines
+        var lines = text.split("\n");
+        // iterate over lines
+        for (var i = 0; i < lines.length; i++) {
+            // remove leading and trailing whitespace
+            lines[i] = html_prefix + lines[i].trim() + html_suffix;
+        }
+        // rejoin lines with new line character
+        var html_text = lines.join("\n");
+        // set obsfuscated content textarea to html text
+        document.getElementById("obfuscated_content_textarea").value = html_text;
+    }
+
+    function remove_html() {
+        //remove all html tags from the obfuscated text
+        var text = document.getElementById("obfuscated_content_textarea").value;
+        // split text into lines
+        var lines = text.split("\n");
+        // iterate over lines
+        for (var i = 0; i < lines.length; i++) {
+            // remove leading and trailing whitespace
+            lines[i] = lines[i].trim();
+            // remove html tags
+            lines[i] = lines[i].replace(/<[^>]*>/g, "");
+        }
+        // rejoin lines with new line character
+        var html_text = lines.join("\n");
+        // set obsfuscated content textarea to html text
+        document.getElementById("obfuscated_content_textarea").value = html_text;
+    }
+    </script>
+</head>
+
+<div style="display: flex">
+<!-- div for raw content -->
+<div id="raw_content" style="padding:10px">
+    <textarea id="raw_content_textarea" rows="60" cols="80" placeholder="Enter raw text here" onkeyup="search()"></textarea>
+    <!-- add a button that will call the create_collection function -->
+</div>
+
+<!-- central div with buttons -->
+<div id="controls" style="display:flex; align-items: center; justify-content: center;">
+    <input type="text" id="passphrase" placeholder="passphrase" onkeyup="search()" />
+<!-- div with a vertical stack of three buttons -->
+    <div id="buttons" style="padding:10px">
+        <button onclick="obfuscate_text()">obfuscate</button>
+        <br />
+        <button onclick="deobfuscate_text()">deobfuscate</button>
+        <br />
+        <button onclick="add_html()">add HTML</button>
+        <br />
+        <button onclick="remove_html()">strip HTML</button>
+        <br />
+    </div>  
+</div>
+
+
+<!-- div for obfuscated content -->
+<div id="obfuscated_content" style="padding:10px">
+    <textarea id="obfuscated_content_textarea" rows="60" cols="80" placeholder="Enter obfuscated text here" onkeyup="search()"></textarea>
+</div>
+</div>
+
+
+</html>

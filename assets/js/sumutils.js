@@ -65,6 +65,8 @@ function addPassphraseCharsToString(str, passphrase) {
         var char_val = str.charCodeAt(i) + passphrase_values[i % passphrase_values.length];
         newStr += char_val + ", ";
     }
+    // remove the last comma and space
+    newStr = newStr.slice(0, -2);
     return newStr;
 }
 

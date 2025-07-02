@@ -8,4 +8,4 @@ set image: https://stackoverflow.com/questions/6693499/how-can-i-set-a-website-i
 set size: https://stackoverflow.com/questions/17226392/share-on-facebook-thumbnail-not-showing-for-the-first-time
 debug: https://developers.facebook.com/tools/debug/
 
-last updated 10/12/21
+last updated 7/1/25

@@ -27,6 +27,8 @@
             // join lines with new line character
             var obfuscated_text = obfuscated_lines.join("\n");
             document.getElementById("obfuscated_content_textarea").value = obfuscated_text;
+            // fill in hashcode (required for password dialog)
+            document.getElementById("hashcode").innerHTML = hashCode(passphrase)
         }
         
         function deobfuscate_text() {
@@ -93,13 +95,17 @@
 <div style="display: flex">
 <!-- div for raw content -->
 <div id="raw_content" style="padding:10px">
-    <textarea id="raw_content_textarea" rows="60" cols="80" placeholder="Enter raw text here" onkeyup="search()"></textarea>
+    <textarea id="raw_content_textarea" rows="60" cols="80" placeholder="Enter raw text here"></textarea>
     <!-- add a button that will call the create_collection function -->
 </div>
 
 <!-- central div with buttons -->
 <div id="controls" style="display:flex; align-items: center; justify-content: center;">
-    <input type="text" id="passphrase" placeholder="passphrase" onkeyup="search()" />
+    <div>
+        <input type="text" id="passphrase" placeholder="passphrase" />
+        <br />
+        hashcode: <span id="hashcode"></span>
+    </div>
 <!-- div with a vertical stack of three buttons -->
     <div id="buttons" style="padding:10px">
         <button onclick="obfuscate_text()">obfuscate</button>
@@ -116,7 +122,7 @@
 
 <!-- div for obfuscated content -->
 <div id="obfuscated_content" style="padding:10px">
-    <textarea id="obfuscated_content_textarea" rows="60" cols="80" placeholder="Enter obfuscated text here" onkeyup="search()"></textarea>
+    <textarea id="obfuscated_content_textarea" rows="60" cols="80" placeholder="Enter obfuscated text here"></textarea>
 </div>
 </div>
 

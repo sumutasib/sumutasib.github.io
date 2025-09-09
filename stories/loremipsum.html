@@ -52,7 +52,16 @@
             <!-- Add a button to close the dialog box -->
             <!-- Copy hashcode into closePasswordDialog call below -->
             <p></p>
-            <button style="margin: 10" onclick="closePasswordDialog(210)">Enter</button>
+            <button style="margin: 10" onclick="closePasswordDialog()">Enter</button>
+            <div id="hashcode" style="visibility:hidden">210</div>
+            <script>                        
+                // add a listener for the return key on the password dialog 
+                document.getElementById("storyPassword").addEventListener("keydown", function(event) {
+                    if (event.key === "Enter") {
+                        closePasswordDialog();
+                    }
+                });
+            </script>
         </div>
         
 

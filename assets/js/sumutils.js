@@ -3,7 +3,11 @@
 
 // Function to close the password dialog box and set WordSection1 to visible
 function closePasswordDialog(hashvalue) {
-    // get the password from the input box
+    // password can be passed in (old style) or picked up from a hidden field (new style)
+    if (hashvalue == null) {
+        // get the password from the input box
+        var hashvalue = document.getElementById("hashcode").innerHTML;
+    }
     var password = document.getElementById("storyPassword").value;
     // get the hash of the password
     var hash = hashCode(password);
